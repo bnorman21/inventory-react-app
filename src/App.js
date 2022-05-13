@@ -1,9 +1,20 @@
 import "./App.css";
-
+import SearchBar from "./SearchBar";
+import { useState } from "react";
 function App() {
+  const [data, setData] = useState({});
+
+  const updateData = (searchParams) => {
+    setData(searchParams);
+  };
+
   return (
     <div className="App">
-      <p>Bare bones app.</p>
+      <SearchBar callback={updateData} />
+      <p>Name: {"name" in data ? data["name"] : "no data to display"}</p>
+      <p>Max Price: {"price" in data ? data["price"] : "no data to display"}</p>
+      <p>Type: {"type" in data ? data["type"] : "no data to display"}</p>
+      <p>Brand: {"brand" in data ? data["brand"] : "no data to display"}</p>
     </div>
   );
 }

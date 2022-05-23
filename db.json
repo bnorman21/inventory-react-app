@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "name": "Bennett",
+      "price": "3.99",
+      "type": "Person",
+      "brand": "Great",
+      "id": 1
+    },
+    {
+      "name": "Ben",
+      "price": "4.99",
+      "type": "Person",
+      "brand": "Great",
+      "id": 2
+    },
+    {
+      "name": "Joes",
+      "price": "4.99",
+      "type": "Person",
+      "brand": "Mid",
+      "id": 3
+    },
+    {
+      "name": "Greg",
+      "price": "4.99",
+      "type": "Person",
+      "brand": "Awesome",
+      "id": 4
+    },
+    {
+      "name": "Alan",
+      "price": "7.99",
+      "type": "Person",
+      "brand": "Dad",
+      "id": 5
+    },
+    {
+      "name": "Cliff",
+      "price": "5.99",
+      "type": "Type",
+      "brand": "Awesome",
+      "id": 6
+    }
+  ]
+}

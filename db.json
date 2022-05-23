@@ -1,25 +1,11 @@
 {
   "items": [
     {
-      "name": "Bennett",
-      "price": "3.99",
-      "type": "Person",
-      "brand": "Great",
-      "id": 1
-    },
-    {
       "name": "Ben",
       "price": "4.99",
       "type": "Person",
       "brand": "Great",
       "id": 2
-    },
-    {
-      "name": "Joes",
-      "price": "4.99",
-      "type": "Person",
-      "brand": "Mid",
-      "id": 3
     },
     {
       "name": "Greg",
